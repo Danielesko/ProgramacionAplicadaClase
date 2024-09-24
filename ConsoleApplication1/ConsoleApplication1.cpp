@@ -13,7 +13,7 @@ int main()
 	std::cout << "El valor devuelto es:" <<add(3, 4);
 	std::cout << "\nVolviendo a main()\n";
 }
-
+//hola
 // Ejecutar programa: Ctrl + F5 o menú Depurar > Iniciar sin depurar
 // Depurar programa: F5 o menú Depurar > Iniciar depuración
 
