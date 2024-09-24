@@ -2,10 +2,16 @@
 //
 
 #include <iostream>
-
+int add(int x, int y) {
+	std::cout << "En add(), recibido" << x << " y " << y << "\n";
+	return x + y;
+}
 int main()
 {
-    std::cout << "Hello World!\n";
+	std::cout << "En main ()\n";
+	std::cout << "Llamando a add()\n";
+	std::cout << "El valor devuelto es:" <<add(3, 4);
+	std::cout << "\nVolviendo a main()\n";
 }
 
 // Ejecutar programa: Ctrl + F5 o menú Depurar > Iniciar sin depurar
